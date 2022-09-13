@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/title"
+        android:title="Settings"
+        android:enabled="false" />
+    <item
+        android:id="@+id/profil"
+        android:icon="@drawable/profil_siswa"
+        android:title="ProfileSiswa"/>
+    <item
+        android:id="@+id/notifikasi"
+        android:icon="@drawable/notifikasi"
+        android:title="Notification"/>
+
+</menu>

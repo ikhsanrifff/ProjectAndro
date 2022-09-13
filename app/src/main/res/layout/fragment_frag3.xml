@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white2"
+    android:layout_height="match_parent"
+    tools:context=".frag3">
+
+    <TextView
+        android:textSize="22sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#4a4a4a"
+        android:text="Point"
+        android:gravity="center"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp"
+        />
+
+    <LinearLayout
+        android:layout_marginBottom="24dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="12dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="32dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/bg_item">
+
+        <ImageView
+            android:src="@drawable/absensi"
+            android:layout_width="60dp"
+            android:layout_height="60dp"/>
+
+        <LinearLayout
+            android:layout_marginLeft="12dp"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:textSize="18sp"
+                android:text="Total Absensi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"/>
+
+            <TextView
+                android:textSize="14sp"
+                android:textColor="#06b820"
+                android:layout_marginLeft="10dp"
+                android:text="Hadir 31 hari dari 31 hari"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginBottom="24dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="12dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="32dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/bg_item">
+
+        <ImageView
+            android:src="@drawable/task"
+            android:layout_width="60dp"
+            android:layout_height="60dp"/>
+
+        <LinearLayout
+            android:layout_marginLeft="12dp"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:textSize="18sp"
+                android:text="Daftar Tugas"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"/>
+
+            <TextView
+                android:textSize="14sp"
+                android:layout_marginLeft="10dp"
+                android:textColor="#e60400"
+                android:text="2 Tugas Belum Selesai"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginBottom="24dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="12dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="32dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/bg_item">
+
+        <ImageView
+            android:src="@drawable/absensi"
+            android:layout_width="60dp"
+            android:layout_height="60dp"/>
+
+        <LinearLayout
+            android:layout_marginLeft="12dp"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:textSize="18sp"
+                android:text="Kelas"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"/>
+
+            <TextView
+                android:textSize="14sp"
+                android:layout_marginLeft="10dp"
+                android:text="PPLG 2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <Button
+        android:text="Continue"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/cntni"
+        android:layout_marginRight="32dp"
+        android:layout_marginLeft="32dp"
+        app:backgroundTint="#0992BC"
+        android:padding="16dp"/>
+
+</LinearLayout>
